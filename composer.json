@@ -1,5 +1,5 @@
 {
-    "name": "symfony-cmf/tree-browser-bundle",
+    "name": "eliberty/cmf-tree-browser-bundle",
     "type": "symfony-bundle",
     "description": "Symfony CMF Tree Browser Bundle",
     "keywords": [
@@ -16,8 +16,8 @@
         }
     ],
     "require": {
-        "php": "^7.1",
-        "symfony-cmf/resource-rest-bundle": "^1.0"
+        "php": "^7.4|^8.0",
+        "eliberty/cmf-resource-rest-bundle": "^1.0"
     },
     "require-dev": {
         "symfony/form": "^2.8 || ^3.3 || ^4.0",
