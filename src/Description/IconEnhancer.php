@@ -23,9 +23,9 @@ use Symfony\Cmf\Component\Resource\Repository\Resource\CmfResource;
  */
 class IconEnhancer implements DescriptionEnhancerInterface
 {
-    private $iconMap;
+    private array $iconMap;
 
-    private $classMap = [];
+    private array $classMap = [];
 
     public function __construct(array $iconMap)
     {

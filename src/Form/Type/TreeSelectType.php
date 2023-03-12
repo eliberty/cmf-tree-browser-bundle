@@ -48,9 +48,7 @@ class TreeSelectType extends AbstractType
         $resolver->setAllowedValues('widget', ['browser', 'compact']);
 
         $resolver->setDefault('root_node', '/');
-        $resolver->setAllowedValues('root_node', function ($value) {
-            return '/' === $value[0];
-        });
+        $resolver->setAllowedValues('root_node', fn($value) => '/' === $value[0]);
 
         $resolver->setDefault('repository_name', 'default');
     }

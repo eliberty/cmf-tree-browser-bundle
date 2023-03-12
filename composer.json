@@ -15,14 +15,22 @@
             "homepage": "https://github.com/symfony-cmf/TreeBrowserBundle/contributors"
         }
     ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://e-liberty.repo.repman.rpstack.com"
+        }
+    ],
     "require": {
         "php": "^7.4|^8.0",
-        "eliberty/cmf-resource-rest-bundle": "^1.0"
+        "eliberty/cmf-resource-rest-bundle": "^2.500"
     },
     "require-dev": {
         "symfony/form": "^2.8 || ^3.3 || ^4.0",
         "symfony-cmf/testing": "^2.1.8",
-        "symfony/phpunit-bridge": "^4.2.2"
+        "symfony/phpunit-bridge": "^4.2.2",
+        "rector/rector": "^0.15.21",
+        "phpcompatibility/php-compatibility": "^9.3"
     },
     "autoload": {
         "psr-4": {
